@@ -75,7 +75,7 @@ const About = () => {
 
             <motion.div variants={fadeInUp} className='pt-4'>
               <a
-                href='https://drive.google.com/file/d/1DI1oYTdVKp6lyefe6K981IKRhqrvZ_wH/view?usp=sharing'
+                href='https://drive.google.com/file/d/1qBz3YUIXurSTCDvyfJk9_dCECvOuV_-d/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='inline-block px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-medium rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105'
