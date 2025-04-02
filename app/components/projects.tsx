@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaArrowRight } from 'react-icons/fa';
 import { projects } from '@/app/data';
 
 const Projects = () => {
@@ -67,6 +67,7 @@ const Projects = () => {
                     ))}
                   </div>
                 </div>
+
                 <div className='flex space-x-4'>
                   <a
                     href={project.githubLink}
@@ -88,6 +89,23 @@ const Projects = () => {
               </div>
             </motion.div>
           ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className='mt-16 text-center'
+        >
+          <a
+            href='https://github.com/ChineduOscar'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 rounded-lg text-white font-medium text-lg transition-all duration-300 hover:shadow-lg hover:scale-105 group'
+          >
+            See More Projects
+            <FaArrowRight className='ml-2 group-hover:translate-x-1 transition-transform duration-300' />
+          </a>
         </motion.div>
       </div>
     </section>

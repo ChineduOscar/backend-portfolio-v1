@@ -21,7 +21,7 @@ const About = () => {
 
   return (
     <section id='about' className='py-24 text-white'>
-      <div className='container max-w-7xl mx-auto px-6 lg:px-8'>
+      <div className='container max-w-7xl mx-auto lg:px-8'>
         <motion.div
           initial='hidden'
           whileInView='visible'
@@ -35,7 +35,7 @@ const About = () => {
           <div className='w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-6'></div>
         </motion.div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 items-center px-6'>
           <motion.div
             initial='hidden'
             whileInView='visible'
@@ -47,28 +47,30 @@ const About = () => {
               variants={fadeInUp}
               className='text-2xl font-semibold text-blue-400 mb-4'
             >
-              Frontend Developer
+              Backend Developer
             </motion.h3>
 
             <motion.p
               variants={fadeInUp}
               className='text-gray-300 text-base md:text-xl leading-relaxed'
             >
-              I&apos;m a passionate frontend developer specializing in building
-              user-friendly and visually engaging web applications. With
-              expertise in modern frameworks like React and Next.js, I focus on
-              delivering seamless and high-performance user experiences.
+              Building the backbone of digital experiences is more than just
+              writing code. It&apos;s about creating reliable, scalable, and
+              secure systems that bring ideas to life. I specialize in backend
+              development with technologies like NestJS, Express, PostgreSQL,
+              and Prisma, ensuring everything runs smoothly behind the scenes.
             </motion.p>
 
             <motion.p
               variants={fadeInUp}
               className='text-gray-300 text-base md:text-xl leading-relaxed'
             >
-              My approach combines technical expertise with creative
-              problem-solving to transform ideas into functional, beautiful
-              websites. I&apos;m committed to writing clean, maintainable code
-              and staying current with the latest web technologies and best
-              practices.
+              I see ideas as something worth bringing to life, and nothing
+              excites me more than turning imagination into reality. Whether
+              it&apos;s designing databases, optimizing APIs, or making systems
+              more reliable, I focus on building backends that work seamlessly
+              so users can enjoy great experiences without thinking about what
+              powers them.
             </motion.p>
 
             <motion.div variants={fadeInUp} className='pt-4'>
@@ -132,7 +134,7 @@ const About = () => {
                 key={index}
                 variants={fadeInUp}
                 whileHover={{ y: -10, scale: 1.05 }}
-                className='p-5 rounded-lg flex flex-col items-center text-center hover:bg-[#282f5a] transition-all duration-300 hover:shadow-lg hover:border-blue-500/30'
+                className='p-5 rounded-lg flex flex-col items-center text-center bg-[#1e2338]/80 backdrop-blur-sm hover:bg-[#282f5a] transition-all duration-300 hover:shadow-lg hover:border-blue-500/30'
               >
                 <div className='mb-3'>{skill.icon}</div>
                 <h4 className='text-sm md:text-base font-medium'>

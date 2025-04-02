@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Chinedu Oscar | Frontend developer',
-  description: 'Frontend developer, Full stack developer',
+  title: 'Chinedu Oscar | Backend developer',
+  description: 'Backend developer, Full stack developer',
 };
 
 export default function RootLayout({

@@ -30,8 +30,8 @@ const Footer = () => {
           <div className='flex flex-col items-center justify-center'>
             <h2 className='text-2xl font-bold mb-2'>Chinedu Oscar</h2>
             <p className='text-gray-400 text-sm text-center'>
-              Frontend Developer specializing in creating beautiful, functional
-              web experiences
+              Backend Developer specializing in building scalable, secure, and
+              high-performance systems.
             </p>
           </div>
 

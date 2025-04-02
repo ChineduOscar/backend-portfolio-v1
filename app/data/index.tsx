@@ -1,18 +1,21 @@
 import {
+  FaNodeJs,
+  FaGitAlt,
+  FaDatabase,
+  FaServer,
+  FaGithub,
   FaReact,
   FaJs,
-  FaGitAlt,
-  FaFigma,
-  FaNodeJs,
-  FaCode,
-  FaMobileAlt,
-  FaLaptopCode,
+  FaLock,
 } from 'react-icons/fa';
 import {
-  SiNextdotjs,
+  SiPrisma,
+  SiPostgresql,
+  SiPostman,
+  SiNestjs,
+  SiMongodb,
   SiTypescript,
-  SiTailwindcss,
-  SiFramer,
+  SiExpress,
 } from 'react-icons/si';
 
 interface Project {
@@ -97,43 +100,50 @@ export const projects: Project[] = [
 ];
 
 export const skills = [
-  { name: 'React', icon: <FaReact className='text-[#61DAFB] text-4xl' /> },
-  { name: 'Next.js', icon: <SiNextdotjs className='text-white text-4xl' /> },
   { name: 'JavaScript', icon: <FaJs className='text-[#F7DF1E] text-4xl' /> },
   {
     name: 'TypeScript',
     icon: <SiTypescript className='text-[#3178C6] text-4xl' />,
   },
-  {
-    name: 'Tailwind CSS',
-    icon: <SiTailwindcss className='text-[#38B2AC] text-4xl' />,
-  },
-  {
-    name: 'Framer Motion',
-    icon: <SiFramer className='text-[#0055FF] text-4xl' />,
-  },
-  { name: 'Git', icon: <FaGitAlt className='text-[#F05032] text-4xl' /> },
-  { name: 'Figma', icon: <FaFigma className='text-[#F24E1E] text-4xl' /> },
   { name: 'Node.js', icon: <FaNodeJs className='text-[#339933] text-4xl' /> },
+  { name: 'NestJS', icon: <SiNestjs className='text-[#E0234E] text-4xl' /> },
+  { name: 'Express', icon: <SiExpress className='text-[#000000] text-4xl' /> },
+  { name: 'MongoDB', icon: <SiMongodb className='text-[#4DB33D] text-4xl' /> },
+  {
+    name: 'PostgreSQL',
+    icon: <SiPostgresql className='text-[#336791] text-4xl' />,
+  },
+  { name: 'Prisma', icon: <SiPrisma className='text-[#2D3748] text-4xl' /> },
+  { name: 'SQL', icon: <FaDatabase className='text-[#E53E3E] text-4xl' /> },
+  { name: 'React', icon: <FaReact className='text-[#61DAFB] text-4xl' /> },
+  { name: 'Postman', icon: <SiPostman className='text-[#FF6C37] text-4xl' /> },
+  { name: 'Git', icon: <FaGitAlt className='text-[#F05032] text-4xl' /> },
+  { name: 'GitHub', icon: <FaGithub className='text-[#181717] text-4xl' /> },
 ];
 
 export const services = [
   {
-    title: 'Frontend Development',
-    icon: <FaCode className='text-blue-400 text-2xl' />,
+    title: 'Backend Development',
+    icon: <FaServer className='text-blue-400 text-2xl' />,
     description:
-      'Building responsive, interactive user interfaces with modern frameworks and libraries.',
+      'Building scalable, secure, and efficient backends with modern frameworks and databases.',
   },
   {
-    title: 'Responsive Design',
-    icon: <FaMobileAlt className='text-purple-400 text-2xl' />,
+    title: 'API Development',
+    icon: <FaDatabase className='text-green-400 text-2xl' />,
     description:
-      'Creating websites that work flawlessly across all devices and screen sizes.',
+      'Creating RESTful and GraphQL APIs with technologies like NestJS, Express, and Prisma.',
   },
   {
-    title: 'Web Applications',
-    icon: <FaLaptopCode className='text-green-400 text-2xl' />,
+    title: 'Database Management',
+    icon: <SiPostgresql className='text-yellow-400 text-2xl' />,
     description:
-      'Developing feature-rich web applications with seamless user experiences.',
+      'Designing and managing databases with PostgreSQL, MongoDB, and SQL to ensure high performance and scalability.',
+  },
+  {
+    title: 'Authentication & Security',
+    icon: <FaLock className='text-purple-400 text-2xl' />,
+    description:
+      'Implementing secure authentication systems using JWT, OAuth, and other best practices.',
   },
 ];

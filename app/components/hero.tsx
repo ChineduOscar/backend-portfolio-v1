@@ -36,7 +36,7 @@ const Hero = () => {
             >
               I&apos;m a{' '}
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400'>
-                Frontend Developer
+                Backend Developer
               </span>
             </motion.h1>
 
@@ -46,7 +46,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className='text-xl md:text-2xl mb-6 text-gray-300'
             >
-              Building the Web of Tomorrow, Today.
+              Powering the Web of Tomorrow with Scalable & Secure Backends.
             </motion.div>
 
             <motion.p
@@ -55,8 +55,8 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
               className='text-gray-400 mb-10 text-base md:text-lg'
             >
-              Crafting seamless, intuitive, and modern digital experiences that
-              bridge creativity and innovation.
+              Engineering secure, scalable, and reliable backends that keep
+              digital experiences smooth and seamless.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
