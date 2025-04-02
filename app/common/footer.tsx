@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import { FaPhone, FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
-
 import { RiTwitterXFill } from 'react-icons/ri';
 
 const Footer = () => {
