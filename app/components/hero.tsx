@@ -25,7 +25,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className='text-4xl md:text-5xl lg:text-6xl font-bold leading-tight'
             >
-              <h4 className='text-[28px] font-medium mb-2'>Hello, I'm</h4>
+              <h4 className='text-[28px] font-medium mb-2'>Hello, I&apos;m</h4>
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400'>
                 Chinedu Nnadozie Oscar
               </span>
