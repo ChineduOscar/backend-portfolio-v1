@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='relative py-20 flex items-center overflow-hidden text-white'
+      className='relative py-24 flex items-center overflow-hidden text-white'
     >
       <div className='absolute inset-0 opacity-10'>
         <div className='absolute top-20 left-10 w-64 h-64 rounded-full bg-white blur-3xl'></div>
@@ -16,44 +16,33 @@ const Hero = () => {
 
       <div className='absolute inset-0 bg-grid-pattern opacity-5'></div>
 
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10'>
-        <div className='flex flex-col md:flex-row md:items-center md:justify-between gap-8'>
-          <div className='md:w-1/2 md:pr-8 md:text-left text-center'>
+      <div className='max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 z-10'>
+        <div className='flex flex-col md:flex-row md:items-center md:justify-between gap-12'>
+          <div className='md:w-1/2 md:pr-10 md:text-left text-center space-y-6'>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className='mb-4 text-gray-300 tracking-wider uppercase text-sm md:text-base'
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className='text-4xl md:text-5xl lg:text-6xl font-bold leading-tight'
             >
-              Welcome to My Online Home!
-            </motion.div>
-
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className='text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight'
-            >
-              I&apos;m a{' '}
-              <span className='text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400'>
-                Backend Developer
+              <h4 className='text-[28px] font-medium mb-2'>Hello, I'm</h4>
+              <span className='text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400'>
+                Chinedu Nnadozie Oscar
               </span>
-            </motion.h1>
-
+            </motion.div>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              className='text-xl md:text-2xl mb-6 text-gray-300'
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className='text-2xl md:text-3xl font-semibold text-gray-100'
             >
-              Powering the Web of Tomorrow with Scalable & Secure Backends.
+              Backend Developer
             </motion.div>
-
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              className='text-gray-400 mb-10 text-base md:text-lg'
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className='text-gray-300 text-base md:text-lg'
             >
               Engineering secure, scalable, and reliable backends that keep
               digital experiences smooth and seamless.
@@ -64,7 +53,11 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.8 }}
               className='relative inline-block'
             >
-              <a href='mailto:chinedunnadozieo@gmail.com' target='_blank'>
+              <a
+                href='mailto:chinedunnadozieo@gmail.com'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <button className='relative cursor-pointer'>
                   <div className='absolute -inset-[2px] rounded-lg overflow-hidden'>
                     <div className='absolute inset-0 rounded-lg animate-border-flow'></div>
@@ -90,7 +83,6 @@ const Hero = () => {
               </a>
             </motion.div>
           </div>
-
           <TicTacGrid />
         </div>
       </div>
