@@ -1,12 +1,8 @@
 'use client';
 import React from 'react';
-import {
-  FaPhone,
-  FaEnvelope,
-  FaLinkedin,
-  FaGithub,
-  FaTwitter,
-} from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+
+import { RiTwitterXFill } from 'react-icons/ri';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -63,7 +59,7 @@ const Footer = () => {
                 className='text-gray-300 hover:text-blue-400 transition-colors duration-300'
                 aria-label='Twitter'
               >
-                <FaTwitter size={22} />
+                <RiTwitterXFill size={22} />
               </a>
             </div>
           </div>
