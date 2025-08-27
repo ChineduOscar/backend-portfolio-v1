@@ -7,6 +7,7 @@ import {
   FaReact,
   FaJs,
   FaLock,
+  FaPython,
 } from 'react-icons/fa';
 import {
   SiPrisma,
@@ -16,6 +17,7 @@ import {
   SiMongodb,
   SiTypescript,
   SiExpress,
+  SiFastapi,
 } from 'react-icons/si';
 
 interface Project {
@@ -23,7 +25,7 @@ interface Project {
   title: string;
   description: string;
   image: string;
-  githubLink: string;
+  githubLink?: string;
   liveLink: string;
   technologies: string[];
 }
@@ -31,19 +33,22 @@ interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'Cofounder Matching Platform',
+    title: 'SmartifyPDF',
     description:
-      'An intelligent platform that connects entrepreneurs with the perfect cofounder. Using AI-driven matchmaking, it pairs individuals based on skills, interests, and startup vision ensuring strong successful partnerships.',
-    image: '/cofounder-bg.png',
-    githubLink: 'https://github.com/Alimego/matchers',
-    liveLink: 'https://cofoundershub.netlify.app',
+      'SmartifyPDF uses AI to instantly convert your PDFs into interactive quizzes, making learning faster and more engaging.',
+    image: '/smartifypdf-bg.png',
+    liveLink: 'https://smartifypdf.com',
     technologies: [
       'Next.js',
       'NestJS',
       'Prisma',
       'PostgreSQL',
-      'OpenAI API',
+      'Gemini API',
       'JWT Authentication',
+      'Firebase',
+      'Tailwind CSS',
+      'FastAPI',
+      'Python',
     ],
   },
   {
@@ -71,14 +76,7 @@ export const projects: Project[] = [
     image: '/lancheai-bg.png',
     githubLink: 'https://github.com/lancheaiteam/lancheai-v0',
     liveLink: 'https://lancheai.netlify.app',
-    technologies: [
-      'React',
-      'Solidity',
-      'Next.js',
-      'Node.js',
-      'Avalanche (AVAX)',
-      'OpenAI API',
-    ],
+    technologies: ['React', 'Tailwind CSS', 'Next.js', 'Node.js'],
   },
   {
     id: 4,
@@ -108,6 +106,9 @@ export const skills = [
   { name: 'Node.js', icon: <FaNodeJs className='text-[#339933] text-4xl' /> },
   { name: 'NestJS', icon: <SiNestjs className='text-[#E0234E] text-4xl' /> },
   { name: 'Express', icon: <SiExpress className='text-[#000000] text-4xl' /> },
+
+  { name: 'Python', icon: <FaPython className='text-[#3776AB] text-4xl' /> },
+  { name: 'FastAPI', icon: <SiFastapi className='text-[#009688] text-4xl' /> },
   { name: 'MongoDB', icon: <SiMongodb className='text-[#4DB33D] text-4xl' /> },
   {
     name: 'PostgreSQL',

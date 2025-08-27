@@ -52,7 +52,7 @@ const Footer = () => {
                 <FaGithub size={22} />
               </a>
               <a
-                href='https://x.com/chinedudozie1/'
+                href='https://x.com/darkscreendev/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-gray-300 hover:text-blue-400 transition-colors duration-300'

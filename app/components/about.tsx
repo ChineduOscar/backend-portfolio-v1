@@ -54,28 +54,23 @@ const About = () => {
               variants={fadeInUp}
               className='text-gray-300 text-base md:text-xl leading-relaxed'
             >
-              Building the backbone of digital experiences is more than just
-              writing code. It&apos;s about creating reliable, scalable, and
-              secure systems that bring ideas to life. I specialize in backend
-              development with technologies like NestJS, Express, PostgreSQL,
-              and Prisma, ensuring everything runs smoothly behind the scenes.
+              I specialize in backend development using NestJS, Express,
+              PostgreSQL, and Prisma, building reliable, scalable, and secure
+              systems that power great user experiences.
             </motion.p>
 
             <motion.p
               variants={fadeInUp}
               className='text-gray-300 text-base md:text-xl leading-relaxed'
             >
-              I see ideas as something worth bringing to life, and nothing
-              excites me more than turning imagination into reality. Whether
-              it&apos;s designing databases, optimizing APIs, or making systems
-              more reliable, I focus on building backends that work seamlessly
-              so users can enjoy great experiences without thinking about what
-              powers them.
+              From designing efficient databases to optimizing APIs and ensuring
+              system performance, I focus on creating backends that are robust,
+              future-ready, and built for real-world use.
             </motion.p>
 
             <motion.div variants={fadeInUp} className='pt-4'>
               <a
-                href='https://drive.google.com/file/d/1qBz3YUIXurSTCDvyfJk9_dCECvOuV_-d/view?usp=sharing'
+                href='https://drive.google.com/file/d/1Kb4ws_oWg3GWs9RI0bH5joe-Bog077co/view?usp=sharing'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='inline-block px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-medium rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105'
