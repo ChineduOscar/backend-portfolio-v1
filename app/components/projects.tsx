@@ -69,14 +69,14 @@ const Projects = () => {
                 </div>
 
                 <div className='flex space-x-4'>
-                  <a
+                   {project.githubLink && <a
                     href={project.githubLink}
                     target='_blank'
                     rel='noopener noreferrer'
                     className='flex items-center px-4 py-2 bg-[#282f5a] hover:bg-[#323a6b] rounded-lg transition-colors duration-300'
                   >
                     <FaGithub className='mr-2' /> GitHub
-                  </a>
+                  </a>}
                   <a
                     href={project.liveLink}
                     target='_blank'
