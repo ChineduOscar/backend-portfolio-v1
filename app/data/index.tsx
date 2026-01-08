@@ -32,7 +32,7 @@ interface Project {
 
 export const projects: Project[] = [
   {
-    id: 2,
+    id: 1,
     title: 'LearnQube',
     description:
       'An e-learning platform where users can buy and watch videos to learn tech skills. It offers a wide variety of courses designed to enhance learning through engaging video content.',
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     title: 'LancheAI',
     description:
       'A Web3-powered AI system built on the Avalanche blockchain offering decentralized intelligent solutions for business automation. It enhances decision-making, security, and operational efficiency with smart contract integration.',
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     technologies: ['React', 'Tailwind CSS', 'Next.js', 'Node.js'],
   },
   {
-    id: 4,
+    id: 3,
     title: 'Raymart',
     description:
       'An intuitive e-commerce platform for seamless shopping experiences with product search, secure checkout, and personalized recommendations.',
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 1,
+    id: 4,
     title: 'SmartifyPDF',
     description:
       'SmartifyPDF uses AI to instantly convert your PDFs into interactive quizzes, making learning faster and more engaging.',
