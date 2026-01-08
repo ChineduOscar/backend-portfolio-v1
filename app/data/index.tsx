@@ -32,26 +32,6 @@ interface Project {
 
 export const projects: Project[] = [
   {
-    id: 1,
-    title: 'SmartifyPDF',
-    description:
-      'SmartifyPDF uses AI to instantly convert your PDFs into interactive quizzes, making learning faster and more engaging.',
-    image: '/smartifypdf-bg.png',
-    liveLink: 'https://smartifypdf.com',
-    technologies: [
-      'Next.js',
-      'NestJS',
-      'Prisma',
-      'PostgreSQL',
-      'Gemini API',
-      'JWT Authentication',
-      'Firebase',
-      'Tailwind CSS',
-      'FastAPI',
-      'Python',
-    ],
-  },
-  {
     id: 2,
     title: 'LearnQube',
     description:
@@ -93,6 +73,26 @@ export const projects: Project[] = [
       'MongoDB',
       'JavaScript',
       'CSS',
+    ],
+  },
+  {
+    id: 1,
+    title: 'SmartifyPDF',
+    description:
+      'SmartifyPDF uses AI to instantly convert your PDFs into interactive quizzes, making learning faster and more engaging.',
+    image: '/smartifypdf-bg.png',
+    liveLink: 'https://smartifypdf.com',
+    technologies: [
+      'Next.js',
+      'NestJS',
+      'Prisma',
+      'PostgreSQL',
+      'Gemini API',
+      'JWT Authentication',
+      'Firebase',
+      'Tailwind CSS',
+      'FastAPI',
+      'Python',
     ],
   },
 ];
